@@ -1,0 +1,11 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Archivos de configuración de PyCharm
+.idea/
+
+# Caché de Python y Jupyter Notebooks
+__pycache__/
+.ipynb_checkpoints/
