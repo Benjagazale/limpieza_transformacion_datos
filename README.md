@@ -10,12 +10,13 @@ El proyecto se centra en la adquisición, tratamiento preliminar y segmentación
 
 El código está estructurado en tres etapas clave del procesamiento de datos:
 
-1. **Limpieza y Transformación de Datos:** - Importación de dataframes estructurados a partir de archivos masivos en formato CSV (`fbref_laliga21.csv`).
+1. **Limpieza y Transformación de Datos:**
+   - Importación de dataframes estructurados a partir de archivos masivos en formato CSV (`fbref_laliga21.csv`).
    - Normalización de formatos, manejo de valores nulos o ausentes, y renombrado de columnas.
 
-2. **Filtrado de Datos:**
+3. **Filtrado de Datos:**
    - Segmentación utilizando condiciones lógicas en Pandas.
 
-3. **Estructuras de Control Bucles y Condicionales:**
+4. **Estructuras de Control Bucles y Condicionales:**
    - Implementación de bucles `for` combinados con sentencias condicionales `if-elif-else` para la automatización de clasificaciones.
    - Creación de métricas calculadas personalizadas iterando sobre los registros.
